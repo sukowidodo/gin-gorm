@@ -44,7 +44,7 @@ func main() {
 	//router.LoadHTMLFiles("templates/template1.html", "templates/template2.html")
 	router.GET("/index", func(c *gin.Context) {
 		c.HTML(http.StatusOK, "index.tpl", gin.H{
-			"title": "Main website",
+			"title": "Ini Judul",
 		})
 	})
 
